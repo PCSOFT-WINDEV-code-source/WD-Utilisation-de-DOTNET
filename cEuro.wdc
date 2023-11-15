@@ -1,0 +1,248 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cEuro
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x3fa7ace03658de59
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAABx2p8xoemzlHtDt5Y40vBieDc7e2HYmRfP8Qyr4RIaVED3iw6sd7ZFkgNRB44zf+36Defi5rwzT0VRTdoYJD7NWF8LfxAqWiKKSp9OhGa6xFYVR2DjMYr02Vu1Y6McDIM7MPzjBzPBrosztDIvT2hT7pJ3k0jA79FXoCYjtJKDqUArAzPrebSg5FaAhpFvYak7X/Vb1/Ym2QfRAjl1p+FOGnMFpRn5SREEdPPFOaU1hmbUlBhZSq4rxRRJwZM44yLLHZ74K6xAY4JLozCUHXoC9GVNOlH4teFVQpXH0FTHuuMhfn1F9vp/S2UgPJZLVL01z/CIwc9cHv6YrhPrIpxAjiJOZpHKq3nYYNltVEXbKQlYkGM6NoDmKc8Rd7g0l6KNCPJE8DUHQ2K+jOemHacLBnQgItOQVpO5
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      cEuro est une classe
+      	//Classe de conversion Euro destinée à une DLL .NET
+      	//Permet des conversion Euro > Devise / Devise > Euro / Devise > Devise.
+      	
+      	prive
+      	e_DeviseSource 		est un entier 				//DeviseUtilisée.
+      	e_DeviseCible		est un entier				//
+      	e_Decimales			est un entier				//Nombres de décimales.
+      	TabDevise			est un tableau dynamique	//Tableau de devises
+      Fin
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     internal_properties : CAAAAAgAAAAzdtZ3Fuj5taLeT4VO0xkyVAASg3PIUUInq5NvXbOu6Es0skcbznO0068gQCqsVCFlxZQ80WjKlOak7a30DUBa5plD/Qyq3IqU2lsfrjGQmrnB1NCjz6VGPblJiaTHyxL3L3Xdln02iM8F8PT9sKkEHpl95QrVNN0tJ4dMBAC7HzAsONj+oF0eZobqRIoBbt5kL1k6dPmS/cttH/JCPNxfxgI=
+     procedure_id : 4586824823716240985
+     type_code : 27
+     code : |1-
+      Procédure Constructeur(Local _DeviseSource est un entier = 0,local _DeviseCible est un entier = 1)
+      
+      //Init du tableau des devises.
+      :TabDevise = allouer un tableau de 14 entiers
+      :TabDevise[1] = 0	//EURO
+      :TabDevise[2] = 1	//F
+      :TabDevise[3] = 2	//ITL
+      :TabDevise[4] = 3	//BEF
+      :TabDevise[5] = 4	//LUF
+      :TabDevise[6] = 5	//DEM
+      :TabDevise[7] = 6	//ATS
+      :TabDevise[8] = 8	//ESP
+      :TabDevise[9] = 9	//IEP
+      :TabDevise[10] = 10	//NLG
+      :TabDevise[11] = 11	//PTE
+      :TabDevise[12] = 14	//GRD
+      :TabDevise[13] = 15	//FIM
+      :TabDevise[14] = 34	//SIT
+      
+      //Par défaut la devise source est l'euro et cible le Franc.
+      :e_DeviseSource = _DeviseSource
+      :e_DeviseCible = _DeviseCible
+      :e_Decimales = 3
+      
+      // Taux de change pour la slovénie
+      eInitDevise(eSIT, "SIT", 239.640)
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 4586824823682293337
+     type_code : 28
+     code : |1+
+      Procédure Destructeur()
+      
+     type : 655360
+   -
+     name : EuroTauxChange
+     procedure_id : 4586840230801873343
+     type_code : 12
+     code : |1+
+      Procédure EuroTauxChange(LOCAl _Devise est un entier)
+      
+      //Renvoie le taux de change de la devise courante.
+      renvoyer eTauxDeChange(_Devise)
+     type : 458752
+   -
+     name : EuroLibelle
+     internal_properties : CAAAAAgAAABVS3u7Dh8jHQbuiCKSt+i5VZJXkXWESORRW3eZcI78rHS7DddSo0wnK3BtktgU0OHYWnjxTUI2kX4QZID9Y0RHktelKB/JkUE9k7T3S0G4yxIkl63O5GDrtCrCGNmCEO1g3uh6+9AzM5BuyRMwbeIzI+Zy8A+IMcBe7hQ/eQpHgoqPWQDR9a5VsmGUzg787ADARA==
+     procedure_id : 4586856315654159834
+     type_code : 12
+     code : |1+
+      Procédure EuroLibelle(local _Devise est un entier)
+      
+      //Renvoie le libéllé d'une devise.
+      //1 pour Source et 2 Pour Cible.
+      selon _Devise
+      	cas 1 : //Source
+      		renvoyer eNomDevise(:e_DeviseSource)
+      	cas 2 : //Cible
+      		renvoyer eNomDevise(:e_DeviseCible)		
+      	autres cas
+      		renvoyer ""
+      FIN
+      
+     type : 458752
+   -
+     name : ListeDevise
+     internal_properties : CAAAAAgAAAD3rv/4tb/kfwVQ1SD4avO2f9vgy44khOlgyICAPSsLh3b+Pbunvsh4JwVnxFACJCwRvzLX9lM7g2KlDisSHSpiyTokg5XJGzTb6O9GqsKpNMOnluxHEljcC4svSWvsPZSg3+zwXRtdX3IZctr+Hm28oft0CAUfR1gk3d2OEeDewGAndHaaWcfaKFUXxyg/7HRkR0xjHfx+Co6teCCQTeRD/O7WEVw0B+QIr8LJgfBr41rGa0TFZi0ELJvpzSSD
+     procedure_id : 4586857594276825867
+     type_code : 12
+     code : |1+
+      Procédure ListeDevise()
+      
+      //Retourne la liste des devises et leur Indice
+      //Chaîne au Format : Monnaie+RC
+      renvoyer 	<§$0000§>+rc+...
+      			<§$0001§>+rc+...
+      			<§$0002§>+rc+...
+      			<§$0003§>+rc+...
+      			<§$0004§>+rc+...
+      			<§$0005§>+rc+...
+      			<§$0006§>+rc+...
+      			<§$0007§>+rc+...
+      			<§$0008§>+rc+...
+      			<§$0009§>+rc+...
+      			<§$000a§>+rc+...
+      			<§$000b§>+rc+...
+      			<§$000c§>+rc+...
+      			<§$000d§>
+     type : 458752
+   -
+     name : ConvertMonnaie
+     procedure_id : 4586858493906024791
+     type_code : 12
+     code : |1+
+      Procédure ConvertMonnaie(local _Val est un réel, local Sens est un entier)
+      
+      //Selon Sens, on convertit _Val 
+      //Sens = 1 ---> _Val est converti de devise source vers devise cible
+      //Sens = 2 ---> _Val est converti de devise cible vers devise source
+      ValaRenvoyer est un réel
+      
+      selon Sens
+      	cas 1: //Sens Source vers cible.
+      		ValaRenvoyer = eChangeDevise(_Val,:e_DeviseSource,:e_DeviseCible,:e_Decimales)
+      	cas 2 : //Sens cible vers source
+      		ValaRenvoyer = eChangeDevise(_Val,:e_Devisecible,:e_Devisesource,:e_Decimales)
+      FIN
+      
+      renvoyer ValaRenvoyer
+     type : 458752
+   -
+     name : FixeNbDecimales
+     procedure_id : 4586872370597447765
+     type_code : 12
+     code : |1+
+      Procédure FixeNbDecimales(local _Decimales est un entier)
+      
+      //Fixe le nombre de décimales.
+      :e_Decimales = _Decimales
+     type : 458752
+   -
+     name : FixeDeviseSource
+     procedure_id : 4586873825209218467
+     type_code : 12
+     code : |1+
+      Procédure FixeDeviseSource(Local _Source est un entier)
+      
+      //Donne l'indice de la combo.
+      :e_DeviseSource=:TabDevise[_Source]
+     type : 458752
+   -
+     name : FixeDeviseCible
+     procedure_id : 4586874195849528747
+     type_code : 12
+     code : |1+
+      Procédure FixeDeviseCible(Local _Cible est un entier)
+      
+      //Donne l'indice de la combo.
+      :e_DeviseCible=:TabDevise[_Cible]
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3fa7acdc135fcdeb
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Euro
+     index : 0
+   -
+     text :
+      fr-FR : Franc Français
+     index : 1
+   -
+     text :
+      fr-FR : Lire italienne
+     index : 2
+   -
+     text :
+      fr-FR : Franc Belge
+     index : 3
+   -
+     text :
+      fr-FR : Franc Luxembourgeois
+     index : 4
+   -
+     text :
+      fr-FR : Deutsch Mark
+     index : 5
+   -
+     text :
+      fr-FR : Schilling Autrichien
+     index : 6
+   -
+     text :
+      fr-FR : Pesete
+     index : 7
+   -
+     text :
+      fr-FR : Livre Irlandaise
+     index : 8
+   -
+     text :
+      fr-FR : Florins Néerlandais
+     index : 9
+   -
+     text :
+      fr-FR : Escudos Portuguais
+     index : 10
+   -
+     text :
+      fr-FR : Drachme grecque
+     index : 11
+   -
+     text :
+      fr-FR : Mark Finlandais
+     index : 12
+   -
+     text :
+      fr-FR : Tolar Slovène
+     index : 13
+   -
+     text :
+      fr-FR : Tolar slovène
+     index : 14
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

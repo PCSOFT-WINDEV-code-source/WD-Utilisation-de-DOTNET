@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>cEuro</name>
+    </assembly>
+    <members>
+        <member name="T:WL.cEuro">
+            <summary>
+            
+            (Classe générée avec WINDEV)
+            </summary>
+        </member>
+        <member name="M:WL.cEuro.EuroTauxChange(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:WL.cEuro.EuroLibelle(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:WL.cEuro.ListeDevise">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:WL.cEuro.ConvertMonnaie(System.Double,System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:WL.cEuro.FixeNbDecimales(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:WL.cEuro.FixeDeviseSource(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+        <member name="M:WL.cEuro.FixeDeviseCible(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns>
+            
+            </returns>
+        </member>
+    </members>
+</doc>

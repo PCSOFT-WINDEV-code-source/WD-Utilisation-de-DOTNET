@@ -1,0 +1,247 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ConvertisseurWD
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : ConvertisseurWD
+ identifier : 0x3fa7bb8a539f249b
+ internal_properties : CAAAAAgAAACfjcnW5BNvHY8ArOC/5p86591zgoAR0DZTWq84eYI4ItEooBDdJThI+JSvHZs4T5GMu9/RpYZ2cUx2lLx4gPDH6n0E26CqOabDoI0dqP++jLAvZHoSG0gP99IrCjZVeMfeIH4pW1L/tbVhYrdZlTjftGP5Ogx3GzH51F+Bl/TSpqaiqXxNkUTqxlLRN4Ftu3vrq9jTSn0gYoJdHpfn7V4xYpnwgZwKu3Mo7Lsyfdeg3zz6K6olzcJ/UiJxnRy7neauKuRft9wRIz5TEAv2/lMnoCBHAK/3l767Kng3Bbrwkt7WBSmX5JDBW2/6o2etmX8zQs6eOtLUcUSIfV+BjIppVJ6+2ZJ6Bt5ZcAnJl+aNoOXKE0FI8InFzEH8U6uhnjHkeDG9NFpItFkm+KkGxZPr500xz9GU0hyDSZE7+Obu2QPRMg32CwOcqGgg8kmw7SKk8VUyJBVBZq/XdNv6JUuhHSTLZnrsCNNCyNW6A6PRDC89lmQMVgWrURIX6V6edObCdE5VwewieyIHb9ZVIh4TUi/u4zkEsZRbshZNolJo4nB+rYpCpIF+1bnR5u0EeTkJbYteZhcH836v4ZgvXlnPCVJOrzDa1CFHm8QpAMFhpW4fLMehm4XrlO5Qef3EoNKIBpMZibhvkwGk5Ej8ZvMEhKxT7O+D5xaduQ1txnP85cRhqxz2dXa/MbUxIwYvm9AwT+YI1ZcaVwVij9pUIYI52pKZd/j/XVBXpq6uAfFsmSBUHrX5K5t5Rp7KM/KMzze3LIAi4BWmaen6mRC/06IX65Cc
+ properties :
+  width : 373
+  height : 154
+  widthClient : 371
+  heightClient : 122
+  widthMin : 4
+  heightMin : 15
+ controls :
+  -
+    name : Libellé1
+    identifier : 0x3fa7bb944f384c45
+    internal_properties : CAAAAAgAAABOQf9zRHJJt9cXtCc6w3xTb2wQ1sLa3VjWz7wuu0D2U8jRWQRZ4bXcgwT07Z52WbmwYaqmZ9eV6xixmMSk2Y9XUjEvi5Oz8xKZMk8or/GGKO/c3uPCW3CNcw6lBScTZcU2P6lDu0OG7kbHTVAodvehv6jeQldjM02wrme0tkcYVOUvlY1WDsxMmqW8z20ECk+p4oxKCCs0+BJiNW80iVLaVH/Y7zx5pgPgF+iMepels4fHAzd3U7YvokyoUqQ0ttIrReHbE9oMF3sOLYiOQ5PBdBQBxFKZWPgNkoYUJT97gh7ZrRoiOEk7WhxoIaiFagAbedBB2Dg92U5N5qXn/Nzz+7Km+t5kqojw23HGAte1TvzfygPqq789elGsCC7AkMQ8B2Z3cQa8GIwefJu5Ul2+uI6a1ggRHzN/+wZROgkt/qN62+MPZQqbqHFPABUYwcg+e5C/cMhon5U5x4dBhH/cs1oRScOWAebk+jlasCfBFnQCjb1J
+    properties :
+     x : 5
+     y : 6
+     width : 360
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : COMBO_DEVISE_SOURCE
+    identifier : 0x3fa7be3420868cdd
+    internal_properties : CAAAAAgAAABEfBGeL9i4FekO8coy6mkXcEW1SFYyXwjE5vTVM6dv2Db3EAyfisy2u+uAJ9FsAiVaBm8Yam+xqUgsh/0fo6ZUiY5PTeZHr/vKQtz+Q9vAUsffwM8/DraXDs+QFedaeVDw8BqgcyuGZaBnKJ3c08ZQGR0zZfEfCgZD7LEG6L+nd9SksvW/hSXJJJqk3E6/mYsafzAJ0vOCoYf9f67/VOwEfJsp6+tfGqhNoSE7qclbjlWrslFVNUZqTyhJcAjAm/12k6HwMBeF2aR8FBN5OAYvzRp6XvK31gybj6eM982C2IyEiAIyrLIs0EA0WoIjPoG/6teEjR/00i2bIFuqbwydsaSSDANt/oTBHVylTL4t2q+9rsJpZiFIQbBbcLdWYMHMDWEQzyHiV2Xbgx9vrTIDR+wfO1UoyhyowZ1hQAdTyQ/pkezdEZKOnTIUYvzlspKURNlZB2jzNBEi/7x2EkkfDuvXVjwi+2LxRGFlTwvb4EEBHVPGKdJlHoDFXyNHn+9YicGcQeXB3SiCwdK+4W18x9O0lLrskwtMuqWzFFS0NDt05gmB4fsX0vb1BYGa1rM6kK1XKGf+OSahAIsSrC8DND5iPSS9e5B8JssRo9ZRJCUMpwM7hoDyccNt/FarcgQloUf5RiVuqsEGNvrN3yX2eWwECWU9tgsxQ7NQ3zJwOVE9RiDIqTd1s8dcsjIjTfefUA1t6AUrkEGA53EXi24FKE+ABBw9tzbfXlQwWTJahk8QWKifUjvJeN+jYuQ39CeJHJvmllrrJ47jumcuF3Hut/pVkLRIIRAXK4FOMGMHQzsXT6ONFeH0M2vdGd2SVTYzFwgjHgNQLEl1bptvESHxgcwhqPvNrs/AALrd+zVNRYum9fqlT4vaB+ZXY4Uq986fFtKX6g0WL7+oejkf/SlcFbHrdMfG3OsKuE/BhdRINV0gIOETMzZegPTF3Dtbt6Vbitcl/3OZNTjOf+NELhAXXG9clPOn4I+KHLmI9GwZD67hoYwfRxIRmfIQNK//TmX1QIkr3JB168AV2pSGzuS6mE3AO/zoaZ0EQN1b/1c0ZHiRnFOWQH3xJEd4c0JSFl0oahR1I+a/bVAlYSMaVsOwfyTGb3QM/RQSpOgz4Za52+kwsbqN92qLEPQMRqf3GiPpEwvGQhJZhAgX8w0QJtAoDuyXRCfVC/MoL+OE47f7i7k74fNPti6qdYMHQfadPHXNX39Hqye1qgAZ3PU/didYsuePeurRpLM6K7RC/Jh3zZzUld9My310fJjFHeAe2Jnw49al/7Axpd/fMG0TjYqTgKj+74Xxjk489VS/JCOoVnRTTaM7/5DlOK4YPLsuihUc2+OVfmDHeRZ09MunmGUMUWDBWtHRC2XT7GMotQVz9rULya/0wT8Z9peod9sQ80z9H1JliDOpBNxuY0gKOr5pRxmDd7miWNhAc92kt7KQ0XtkI/Em/WBrERdz4f66hjdCO6JvaROFiN1hnLHiRLWGV4mDjFqBCcV/xYB6WaKM2iuUQ8kDyscFLlBPWEX/EjcwGpUpzOQWcC5h++wb1i0GMsV0M3NUgkPetqEiFF30NWz7nmJhun2HFpaZRYT/EMe6odKqfVUtLIO9fIazrEJF2rvQkJkkBMqgJh2/iw8tCIBc4P06JnqXvy8uwU+cvv9OxYbOEOWe8KP7dWQLWfAe7FYAoaLTw87GpVhe1QJrQh6C0El4OnLwlBfwKBhFr/iskeAXKr8PwRAwU5HNgdUbaA0UmUGQvFhL2KEGJ/qbcY+ZUZ40LxL64A==
+    properties :
+     x : 6
+     y : 40
+     width : 147
+     height : 22
+    dropdown :
+     internal_properties : CAAAAAgAAAD5+MmrLQcLqwbES+eRXwjIMwPzCnM+QGk8+OyUaqmw6zsMh8WNXd8J4vJkkJG2rgtadGRwhPPgbb9zDybh+K+Rv7s9ri5lq8Qtq0HWAjIkY0Jn2vRSiPVcjwhm1FkQf5HLlYivWe5l11ccAJ5lMVUCA3rxAz3zrLqAflDCKwFglL1vFTr8kJxv+Qxy5bIoyL6Zh1ZrSMkq9zzTTICd31/BgPT4uLnqhpJzmWefD7ZUiNselXE12Sklk9MI5r2uJGY0gAiA2cYiZmmWCXXyMRIgwEcmHtfe6OoWQFGUHkmBD9TLOrmseCivhCkA2TMfYeRddmRNz160zPhsViPywU5Pock4y8veSTz6Luz1exr2AAPmrcfZFey7ZqxB5YPLZyzwpsAJXP+cEqhaT4Qft2uix7uP1aBGtCl6sowj1hX0cnifA2uBX44y58hZgI+6n7Es4MD7FVeIVmncCAy0l+12KtkE4+uGYgiZh6X+yS/e4MB2p/ZWTLLw3eRndmh1MWLK7emZkbrvGVJmLTD/7fYcxmnQkHQaOhL8k9fGymOjseJQM+jaRDZu0c4f2ggOegySiUIzFgtUNKnbqtwZE+yKy2zVe5TwsV1pALVmPHfEHE2b4K2HSgfZn47N5Acxk47deZm+JwE1w8rgmCgh4AWvgT/t1wiEP1mB5GhyaqhpcacxfAR/p5EfscpXOFzT9wTrDExdl79iOxAshNGbRlkOGp/gV2HVBuOQ3NIOzClV82OMiBfdUFedMigClvyGAHlsfV0gqDLKW8JHq90dWxC2QlvygQ==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         //Remplissage de la combo.
+         listeajoute(COMBO_DEVISE_SOURCE,gEuro:ListeDevise())
+         
+         
+         //Par défaut, la monnaie source est l'Euro.
+         ListeSelectPlus(COMBO_DEVISE_SOURCE,1)						
+         ExécuteTraitement(COMBO_DEVISE_SOURCE,trtSélection)
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         //Change la devise source.
+         gEuro:FixeDeviseSource(COMBO_DEVISE_SOURCE)
+         LIB_SOURCE..Libellé = gEuro:EuroLibéllé(1)
+         SOURCE = geuro:ConvertMonnaie(Cible,2)
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SOURCE
+    identifier : 0x3fa7c4b05a95e1b3
+    internal_properties : CAAAAAgAAADeu/fbkhVyTeGhRCLaGJR6XhxR5fCYW+AR5KEQ1mbfjI86RXy5kJLCEIvgbe63eglZo4pJSfd232BbQr0V5zDd4ooPe/UXup1Klv8W/RR1v1ku3dyl6FGM3UQwK1HAx3QZbCVgpPY6G6XR8HN/Qa0X9Na0ATTqK8HzpKn+nnUY95PE1b8iRaGYHB82OtGCb4mBetDpPOK1jU8312PqZw0ywd9u4f1Lxs/dS4B/YNGrxU4DUM591pm3+3rJdIydC5vEGLzmW22Gzvhmd1WNW7cvnVd6cv1YIuCsIOsjGhANA30pUQCgf0Q8kPHLEhJXWcLoTDo3ghbGhDstUIc90JQ1XOuTnhUAE0+ruaaHSgllkNeDajPpeX6BmlnWrHY5+ncKpG4pCzFyr+wBjn6I6jKN4BNWjzVk2Hfolmcw6zBFp6eeZgoHXP4rwO8DOEiYxj5myh4kBPa21X2dpKHJCtVk4lFN96ovv3uIPrhIezvtJuMhV8lRMTJdIr+esRkEQ3Fg+uoHhOSRIXfRE0ePr9DC4ns5JpLGIp4gXSt1uvy18fnnLT2WljOugGn0JMMZYgjTzjR9Ha4lQNV4xtjoga+8nmcK9VhEJGc30P8O0sCzcWADMzKUxTVnP49u6du/fsPIgr0w+Yg3WfmdyU7Ift3IgI9o4sp7PX8wn3/smUCJpNuLRAVIFnxdL17SCXhMN/yCrkPb2YVYkK+gy66qN7/31eGgcuWYl14yQKCzJUlxNxjO5xgk4XE+x7hKdq+URMi41ppkZdDEr0gz3NUgTkh+Ti403jl+rnOMznSn5cUdMmUydN4RlRBLsIoTYRz7r3hxjmlh0YTKeuc/p9oncbSyhUUbuuezi9+k55pZjL0MBdmfAyhnot7elL/mwuEUd5qNn2noaYd6uDZYlQTWkEcyXfYne5LpV+cURnF0ZzmPIGFGGqU7LbE+WMEhjPaXRcgI0D4Uj9/gzREgdfatvXw1dPjXpxz7YfHOYHvq7yJ6GY9AF9z7MAT6DMJ/Lva/DaW4Q/3TWYR2vbjejCfofZNNnUhxSKw1CL5gBq+L5Jx8oien3fN+sBnIYoW0pwnCz+oNoISCx8+nSdL/khIp68dok7HuIOI3oTBD3K8CyBZAwzEnZzlEbn3+v5Ocu8KSjINUzqTeMHIfXRHRess1e7SD8WTJMXvWVHhfCGC8XkLdKeb75asEgXPiz3sgB2bbAxKB6Cyp28MZmbDTTQG/l0f+b9EZGXoO5vXaT4oi9J6li6RxSucuUPl8Vg==
+    properties :
+     x : 159
+     y : 40
+     width : 148
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         cible = geuro:ConvertMonnaie(moimeme,1)
+        type : 17
+  -
+    name : COMBO_DEVISE_CIBLE
+    identifier : 0x3fa7c4c13fe02266
+    internal_properties : CAAAAAgAAADHvCjxW2fAIjGxc2TrMjAtKNRIJ5eX+dsgU3OTteLzG1XpK8hjrZclkZEe54ctSA3uQXHegNeyrUZd5I+CpAL73g8MfMBfVv1MUOoVwvYFzVbrhcHOlTptLJ/PV4tBDbT3gMHcgFtfpBSmuZgyypBzHlsVQ8d5j9nPAWI3GMi6mI52OU5pnpiGSgUYMi6VzRxmJM0CU/2c9GXwxTCq4sTvtMVIfwbm/rivwhlL30QsVxBIK0v3mGjtnKDvjjNCQkbg5RWcAHB5gguSwFG2PdM5WkBX1+rITWxU0Zc6CyGZYP0lDbCoZaXNgtkCIIwq2JYaxy1aSoW4Ab99RZYIE9i4eX64ihSbyXMUBho4rn9yUBPs53mT5HralxizFJIS3Gsb3vrjA62qQDpGPi+Tw3sykPBcCLO6SGxo1SOqk6FZHNUqlUR54UO5OMsryjbqDh22ii0VgMKv5OH7FM6UqC5zuFCNtD+j6end4YMwjyWYBI+Ec9c/bilLZ+lHmfLZLSXDS8ASF1t+xiUYvt9UvoKJN47E2cNsourLuD4bqNeOkqeLSLRrXcFk/Si5MBj8dIYyp6SfialZiXwURVE6joqE09bkY1Z6HSKY+e3QRfGEJPaYldqvO2ZHSGVCddINoEsJAeGGMEop0BCSlChw+Yb9Jl5SvQCgkkM2NFNT3qqUeBj8PP5e1kbIF3x5F2+AvCGN22gMmuswIDG+W4zNlAegIJUcQpOYYtbWGS3D4RaYu45P1Na8aKzWtURuvjReM+Uc2TM5IRo5oDyAalqD58IuD/3DjudJC4dWSMXb+ZS0jBa/Ny8Q4v4HEpVKekYm+KC/mvQRarR/wBDZWJm0b/QWKEHzCHFTCyaqMZuMBplsVrkaxxCHg5oac6UWSpPczKkjuCQU6kDQbOjEgve20/bGCSR0EHWpX65HfYIPhqdDV797xvgmeC9d3tNO+CCjicDYO1y9HcTKKnv7a2YT6D0VuQpeN/MZYVYx474mHJqS0zuk4k+STw6cmb9RovEfA6OSgN1ZEZMJBkwMtSqy2s2G2mRN8cIDz4sgE6DtH3mKUUlgjPvdripeSVm0SFNjFFTZH5fkd/gQ6qQ01k4dxbDCvrFhsOY+YFFDKccOrtITNaOd/UN7F6dsI8QQoeOpyifr7sHDzEkXwexWq4jDXr5RPWHXWRwD0NLT21mCblv+PPOl1Clhy0BY4Yvy3HLTAeFc7CbEzZbiCIM0T+XbjEA5cFgcnHQsusShFKJ3heYJmxlIraPNixXL3ViPMOZtyZ5Laeu/7E5ApXUBNP5raF6cHhnDiSOibGrV7fq4dr4uXUjFt/refu6/XKCle9HVW+QOTGegAEgUew9ffGQxvQQsXFxz3JV0At2/HZ9dnlcqgtTvudcQLTS4RUguU4qhVToHSTA/RPIQki6+oRD5CvHXOmV1N8+dMSMZm+cSblpdVpeRLNt2gd8L4Z+3wj4qqF9kvZLKLGG6hw+JVV3GBS5akdB88UekiVJovh5F6wVnW8Ha87SPIOHu0fc8x+MkjA+2BeIc3JA11iyXcRnRFw9xlr75xxWPkJtJiqLuecYNhSkH98joXauAzgfl+r4Tod4lI8Z91SSAUJNohjvmSig0eKBvwUuXD2XT3omFhBEGIxaabkQFUESeY5RD5XOZg5PY0OCDs+ilEVXvvakEO9DXJ45Pk6R/2YCOqsSeIk3eivXo3jQyIYz12mru4qRC4Qx8sH/UiCqtJeigUXckcUMGD1zD8VgYqzkvublzMGc=
+    properties :
+     x : 6
+     y : 68
+     width : 147
+     height : 22
+    dropdown :
+     internal_properties : CAAAAAgAAAD5+MmrLQcLqwbES+eRXwjIMwPzCnM+QGk8+OyUaqmw6zsMh8WNXd8J4vJkkJG2rgtadGRwhPPgbb9zDybh+K+Rv7s9ri5lq8Qtq0HWAjIkY0Jn2vRSiPVcjwhm1FkQf5HLlYivWe5l11ccAJ5lMVUCA3rxAz3zrLqAflDCKwFglL1vFTr8kJxv+Qxy5bIoyL6Zh1ZrSMkq9zzTTICd31/BgPT4uLnqhpJzmWefD7ZUiNselXE12Sklk9MI5r2uJGY0gAiA2cYiZmmWCXXyMRIgwEcmHtfe6OoWQFGUHkmBD9TLOrmseCivhCkA2TMfYeRddmRNz160zPhsViPywU5Pock4y8veSTz6Luz1exr2AAPmrcfZFey7ZqxB5YPLZyzwpsAJXP+cEqhaT4Qft2uix7uP1aBGtCl6sowj1hX0cnifA2uBX44y58hZgI+6n7Es4MD7FVeIVmncCAy0l+12KtkE4+uGYgiZh6X+yS/e4MB2p/ZWTLLw3eRndmh1MWLK7emZkbrvGVJmLTD/7fYcxmnQkHQaOhL8k9fGymOjseJQM+jaRDZu0c4f2ggOegySiUIzFgtUNKnbqtwZE+yKy2zVe5TwsV1pALVmPHfEHE2b4K2HSgfZn47N5Acxk47deZm+JwE1w8rgmCgh4AWvgT/t1wiEP1mB5GhyaqhpcacxfAR/p5EfscpXOFzT9wTrDExdl79iOxAshNGbRlkOGp/gV2HVBuOQ3NIOzClV82OMiBfdUFedMigClvyGAHlsfV0gqDLKW8JHq90dWxC2QlvygQ==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         //Remplissage de la combo.
+         listeajoute(COMBO_DEVISE_CIBLE,gEuro:ListeDevise())
+         
+         
+         //Par défaut, la monnaie source est l'Euro.
+         ListeSelectPlus(COMBO_DEVISE_CIBLE,2)						
+         ExécuteTraitement(COMBO_DEVISE_CIBLE,trtSélection)
+         
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         
+         
+         
+         
+        type : 15
+      -
+        code : |1+
+         //Change la devise source.
+         gEuro:FixeDevisecible(COMBO_DEVISE_CIBLE)
+         LIB_cible..Libellé = gEuro:EuroLibéllé(2)
+         cible = geuro:ConvertMonnaie(Source,1)
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : CIBLE
+    identifier : 0x3fa7c4e40bd3abe7
+    internal_properties : CAAAAAgAAADkd7DS2hVHSpOj03tapYScTnVpRXyCL+hFfCdu5fxqfjxQTQlnUmkrs/xzajzr1ZUYew0S8Iayw+6C1lWg60EqkDBq4eZBLhH6Gey/jIfybQm/OhDfzluSg924Usv+nF5NEdYEkIomSeL1bfY9+5QIa4x9+bXwn70XjoeqkqPFu0NYl3+1MdlnMPylHZUNU988rZaw5RHkInWydKFZOj5ujTqy+YWL7w3v2pcy+D+9KYA1chXQo2mtqm5FAgZcHPfeBIKqbzKP//ja3tFkQp/k2Klvk7gIqWFfpeW3nq9rbETaG9Fyvd3CdlTvfUI8xaNB3XIFKH/yApPQV6IwnpgLerqayN0qs0qyLCmWf84fuJUZarOvsb8vZxXglSm80jOlyqtGU2nlYDwT/pLWAUh05gvzkW/tFSNbsrZBde13nbTsMdc4ETS6OllgyTf/4+xhptIvi6qJ89vWNGJcEO1PunBU5ZljgHSIr9EG0qOlC/Yl607dBBjXZ57PtRlU+mAis+8Zx4Inu87iaBCGp+KtT4J4vS8wEHSFOZq52hJQVHq1SkEgJyE/uHkOMGaPbbM4u2iYRLBq8ZYIKYaGosTsq42e3H2AUjEgjSg82IQKnh1ES5qUuGwLreFeqkVTP/WQSLqbe0XKWIw5P/2cKINPVLJLYnGkgwlMhA2af3dwYJ5gt1QbvKX6SCFgOPvntGov8g5kn1A2CeSnCvmJ+yS9hi+6zhBWhLmP35LgpfEOyXpI6ak66+fVHE4ybkzbOcrlJJk8/4ltSM8trPPysfhLRmQqIQuzafdGq/DNs4qq6viUf2KnTknyEhgCNvPgirA4oI1eaKADSBbI7CfnAmv2GH9sphqCLYsOSIIIjHyU9xotH3m9NruwyAUxFacAdN7cTaYdQegjJmRDQtnWAB5VH6U7P3JmTFYB0Bu5I2AXV5/kKdvZ33j2STHAYpP7BGp2CUjEKyHfHeOghZDEHqykCWmilG7EH55lM1n+XfWW6gOK1AYKokd3VOtA4J2AvI8GLnpqvWzVjiQ3A/UaT2PI4NByUmgOyHEuhDlfI2XhGrKfjQtWNWkyxp3CuOZNjXSNyhYun2lNTkvfCHL+eHvrmdoJyBrirZULb0H3cktP9sRWtS5QgQc6qphFtCGqLg7sV8dC0Gtx0/2D3r2rJ0++m1X83bF+dyXXuROXPbgKF6He9iLmWmrhWN7TGqraQQy7Q+ZvzrhEOM9x2MTYCMUHXAMmeUfoNCmF4cb/v231NBZX5Rgyqb7VMlTwmw==
+    properties :
+     x : 159
+     y : 68
+     width : 148
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         SOURCE = geuro:ConvertMonnaie(moimeme,2)
+        type : 17
+  -
+    name : LIB_SOURCE
+    identifier : 0x3fa7c5331165e10f
+    internal_properties : CAAAAAgAAAAlJg08gBxJkToh23FqClnuTLGouYVJjk30CAlZngbdd2EitlmuNwAiGJkPGVK/0qiv4dQivzq43RA7BSCfPVwk2cds6WVd6N/uoLpPQciPhtS6Ieuf0IH+L6AqUkgq2tjBISzERO5JO5aQk9oPXQ/PxSawN272ljVu7/CrBcDR1ID2yHcgpoBtTt0QlUgXRBZ3FQdktT7ojahiDocd1kJ7NMHDsI3RxAuqkbtS3ZLcEKkayI7wV1eHYNVQp/RUJ0qlwwKbWwVgbNP6RPU5J6KC0vd2cZxtu/zz6Qz6WlTeiTPRZHBSBuNkXrWa2nkJvEY/nqi0JyCzUjnL0u8WfBq3SKNqlmMTtLlv4gb9AoTMMLT5mu3cmRZOwSOoqEGxVL/7oE4XUk0Oc6JUg419s1XsBUgqCiTg5PG7PYHxNfsLtydFHnJSqCalRhAADZFYfF/QFA==
+    properties :
+     x : 313
+     y : 41
+     width : 37
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_CIBLE
+    identifier : 0x3fa7c5504eb15186
+    internal_properties : CAAAAAgAAADkZzw3cFEKQAUd0yLV2yyAPvMWsQsnANHzgImp0qpBg1m5TjUXGsSh/Xq317/BByfVymDT6yjzr6oXLh/vMAOt9SeWHvxJDUOU690inKmeVlRUFQ1GjmHP+1qsa2fhICrtoTSGQbeVQc5RyC+3uZXeeibIcs91i5h1N5y0p0Jwb40eLDYUqbLZoCjNWRSfxtlau+rk0exwN2b8nod4y8mHHytQYxgjhVzbdlTHY+x8JBESrnFEyMrAEMQO+8US7Lpe0W7qKUw7qd1zllaMNW4s5oe6WKzGnde/rXJx21ZlESFYmswebkIs8fJZz1AAQyPI9uPerlIcN66KEc/W5XTNJSF4FWae0QbbRahh3aRVpUSllaIJ7jXA+1tPMYDsb3U5s8pJ21oE2iPbDjpC3uLNEwIIrIJKSrP5Hv5kimYYiKowcKAgyuS+gv5AzVNlbZ6RVQ==
+    properties :
+     x : 313
+     y : 69
+     width : 37
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x3fa7bb8a63b1249b
+  internal_properties : CAAAAAgAAADX4GtzL9S/iIQ99sRt3j7llNMjcN27poTqEBqE2+3xcvHUQjTDp+ps1/7pA9cLwwDjzu35CnbuBz0uTik/qlH/Q9goCwMFALP1+LrKP0WO9WOui5uyCMSZazwTzECQMjMe9QNOizQYqIjXHLWMt06v0Qx5VHH+I9IwPa8J8AmaLDa7pcSwOpzhGH9Guo3ZMb90GR5zqRf+1nRUb6rdBYqlzzG0UusgxYot1yjfATULiWFEzUzX9r1shY3IdrXml/8XItyRqbQKiSepiqYwvYtnWKgnNzEN05d/Tb4RJ16IKZdDRbbIcvH233wGvqwLJpzfO2/QZ4vCWg01
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAE5xwqTPrSI2ETy1yvoDXwK3I3BKkG2umDQtrBdBNT3AjlaYyugBQs0ZnygqAJaxFit0kzrXVxQd275XiQFTBuysxyHr/AhIH2/upWCNjCyUDpjIbSBqGGisgRtJfAb/w=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      // Déclaration d'un objet cEuro
+      gEuro est un objet cEuro
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1fbe23380ab3baaf
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_ConvertisseurWD.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
